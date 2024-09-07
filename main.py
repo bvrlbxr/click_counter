@@ -1,9 +1,7 @@
 from pynput.mouse import Button, Listener
 from time import sleep
 
-counter_left = 0
-counter_right = 0
-counter_middle = 0
+counter_left, counter_right, counter_middle = 0, 0, 0
 
 
 def on_click(x, y, button, pressed):
