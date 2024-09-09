@@ -1,16 +1,16 @@
 from pynput.mouse import Button, Listener
 from time import sleep
-import datetime
+from datetime import datetime
 
 counter_left, counter_right, counter_middle = 0, 0, 0
-start_time = datetime.datetime.now()
+start_time = datetime.now()
 
 def on_click(x, y, button, pressed):
     global counter_left
     global counter_right
     global counter_middle
     global start_time
-    cur_time = datetime.datetime.now()
+    cur_time = datetime.now()
 
     if pressed:
         if button == Button.left:
