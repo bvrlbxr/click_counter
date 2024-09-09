@@ -1,1 +1,1 @@
-Know how much you clicks
+Know how much you click
